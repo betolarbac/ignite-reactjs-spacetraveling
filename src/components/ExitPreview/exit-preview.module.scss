@@ -1,0 +1,32 @@
+.exitPreviewContainer {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+
+  bottom: 0;
+
+  padding: 1.5rem;
+  // background: var(--background);
+  background: linear-gradient(180deg, rgba(26, 29, 35, 0) 0%, #1A1D23 25%);}
+
+.exitPreviewButton {
+  background: var(--heading);
+  color: var(--background);
+  font-weight: bold;
+
+  border-radius: .25rem;
+  border: none;
+  height: 3.75rem;
+  max-width: 720px;
+  width: 100%;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(.9);
+  }
+
+  &:active {
+    filter: brightness(.8);
+  }
+}

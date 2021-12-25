@@ -1,0 +1,27 @@
+.postNavigationContainer {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 1.5rem 0;
+  gap: 1rem;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    transition: filter 0.2s;
+
+    strong {
+      color: var(--highlight);
+    }
+
+    span {
+      font-size: 1.25rem;
+    }
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.mainContainer {
+  max-width: 720px;
+  width: 100%;
+  margin: 3rem auto;
+}
+
+.postDetails {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+
+  color: var(--info);
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .mainContainer {
+    padding: 0 2rem;
+  }
+}

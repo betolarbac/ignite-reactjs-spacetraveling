@@ -1,0 +1,41 @@
+.postImage {
+  position: relative;
+  height: 25rem;
+}
+
+.postTitle {
+  font-size: 3rem;
+}
+
+.postSection {
+  margin-top: 3rem;
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p, li {
+    line-height: 1.75rem;
+    text-align: justify;
+  }
+
+  ul {
+    padding: 1.75rem 0;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.loadingText {
+  display: block;
+  text-align: center;
+}
+
+.lastPublication {
+  color: var(--info);
+  margin-top: 1rem;
+  display: inline-block;
+}
