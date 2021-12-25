@@ -167,7 +167,7 @@ export const getStaticProps: GetStaticProps<PostProps, PageRoute> = async ({
       id,
     } = await prismic.getByUID('posts', String(params.slug), {
       fetch: ['posts.title', 'posts.banner', 'posts.author', 'posts.content'],
-      ref: previewData?.ref ?? null,
+      
     });
 
     const parsedPost: Post = {
